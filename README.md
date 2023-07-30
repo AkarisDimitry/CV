@@ -1,29 +1,24 @@
-# Minimal-CV
-Minimal template for typesetting a curriculum vitae (CV) in LaTeX.
+Curriculum Vitae
+This repository contains my professional CV, written and typeset in LaTeX. It provides a concise summary of my education, skills, experiences, and publications to date.
 
-Hosted on https://github.com/FMatti/Minimal-CV
+Structure
+The CV is structured as follows:
 
-## Introduction
-Motivated by a friend's request I make the source for the CV that has assisted me more (or less) on my journey in the last few years. I was inspired by recent trends of modularizing and condensing CVs onto a single A4 page. My aim was to keep the code as simple as possible and only as customizable as necessary, hence why I call it 'Minimal'.
+Personal Information: Contact details and links.
+Education: Degrees, institutions, and years of graduation.
+Professional Experience: Past roles, responsibilities, and achievements.
+Skills: Proficient and familiar technologies, languages, and tools.
+Publications: Research papers and presentations.
+Getting Started
+To compile the LaTeX document to PDF, ensure you have a LaTeX distribution installed on your system. Then run:
 
-## Features
-Some of the main features that characterize this template are the
-- coherent and consistent design language
-- programmatically generated vector icons and flags
-- tunable color scheme
-- extendability for personal use
+bash
+Copy code
+pdflatex Minimal-CV.tex
+This will generate a file Minimal-CV.pdf, which is my current CV.
 
-### Icons
-I designed a set of vector illustrations that can be used as icons to guide the eye of the reader towards the relevant information.
+The CV was written using LaTeX for its excellent document typesetting capabilities, especially in academic and formal contexts. The style is simple and elegant, with a focus on readability and clean design.
 
-### Flags
-A small set of flags can be used to make your language competences visible at a glance.
+Updates
+This CV will be updated periodically as I progress through my career. Please refer to this repository for the most recent version.
 
-### Color schemes
-Custom color schemes can be quite easily added to the default design to personalize the CV.
-
-## Closing words
-
-The template is dedicated (in honor and mockery) to the one and only Carl Friedrich Gauss whose work and mentality has never failed to inspire me on my academic journey throughout the last couple of years.
-
-Suggestions for expanding the set of icons and flags are always welcome. Make sure to let me know if this template helped you land a job.
