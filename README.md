@@ -21,11 +21,11 @@ The CV encapsulates my professional journey and is structured in the following m
 
 ## LaTeX Document Structure
 
-The main document `my_cv.tex` is the root LaTeX file. It pulls in data from separate `.tex` files located in the `sections` directory. Each section is self-contained, making the CV easier to maintain and update.
+The main document `Minimal-CV.tex` is the root LaTeX file. It pulls in data from separate `.tex` files located in the `sections` directory. Each section is self-contained, making the CV easier to maintain and update.
 
 ## Getting Started
 
 If you're interested in compiling the LaTeX document into a PDF, ensure you have a LaTeX distribution installed on your system. Following this, execute the following command:
 
 ```bash
-pdflatex my_cv.tex
+pdflatex Minimal-CV.tex
