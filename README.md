@@ -1,24 +1,31 @@
-Curriculum Vitae
-This repository contains my professional CV, written and typeset in LaTeX. It provides a concise summary of my education, skills, experiences, and publications to date.
+# Professional Curriculum Vitae
 
-Structure
-The CV is structured as follows:
+Welcome to my GitHub repository dedicated to my professional CV, a comprehensive document written and typeset in LaTeX. This repository offers an in-depth overview of my academic qualifications, professional journey, technical prowess, and publications so far.
 
-Personal Information: Contact details and links.
-Education: Degrees, institutions, and years of graduation.
-Professional Experience: Past roles, responsibilities, and achievements.
-Skills: Proficient and familiar technologies, languages, and tools.
-Publications: Research papers and presentations.
-Getting Started
-To compile the LaTeX document to PDF, ensure you have a LaTeX distribution installed on your system. Then run:
+## Table of Contents
+- [Structure](#structure)
+- [LaTeX Document Structure](#latex-document-structure)
+- [Getting Started](#getting-started)
+- [Why LaTeX?](#why-latex)
+- [Updates and Versioning](#updates-and-versioning)
+- [Feedback and Suggestions](#feedback-and-suggestions)
 
-bash
-Copy code
-pdflatex Minimal-CV.tex
-This will generate a file Minimal-CV.pdf, which is my current CV.
+## Structure
+The CV encapsulates my professional journey and is structured in the following manner:
 
-The CV was written using LaTeX for its excellent document typesetting capabilities, especially in academic and formal contexts. The style is simple and elegant, with a focus on readability and clean design.
+1. **Personal Information:** My contact details and a quick reference to social and professional networking platforms.
+2. **Education:** An account of my educational background, detailing the degrees I've earned, institutions I've attended, and years of graduation.
+3. **Professional Experience:** A chronological recounting of my professional journey, detailing the roles I've undertaken, responsibilities shouldered, and significant achievements.
+4. **Skills:** A synopsis of my technical skills, including the technologies, languages, and tools I'm proficient in and those I'm familiar with.
+5. **Publications:** A compilation of my research publications, papers presented, and significant academic contributions.
 
-Updates
-This CV will be updated periodically as I progress through my career. Please refer to this repository for the most recent version.
+## LaTeX Document Structure
 
+The main document `my_cv.tex` is the root LaTeX file. It pulls in data from separate `.tex` files located in the `sections` directory. Each section is self-contained, making the CV easier to maintain and update.
+
+## Getting Started
+
+If you're interested in compiling the LaTeX document into a PDF, ensure you have a LaTeX distribution installed on your system. Following this, execute the following command:
+
+```bash
+pdflatex my_cv.tex
