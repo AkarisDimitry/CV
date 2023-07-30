@@ -1,0 +1,16 @@
+\begin{tikzpicture}
+
+\definecolor{red}{RGB}{179,25,66}
+\definecolor{yellow}{RGB}{220,220,0}
+
+    % Clip mask
+    \clip (0, 3) circle (7);
+
+  % Draw the red stripes
+  \fill[minimal-red] (-9,6) rectangle (9,10);
+  \fill[minimal-red] (-9,-4) rectangle (9,0);
+
+  % Draw the yellow stripe
+  \fill[minimal-yellow] (-9,0) rectangle (9,6);
+
+\end{tikzpicture}
